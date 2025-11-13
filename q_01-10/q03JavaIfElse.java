@@ -8,10 +8,11 @@ import java.util.regex.*;
 
 public class q03JavaIfElse {
     private static final Scanner scanner = new Scanner(System.in);
+    static int N = 27;
 
     public static void main(String[] args) {
-        int N = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        // int N = scanner.nextInt();
+        // scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         if (N % 2 != 0 || (N % 2 == 0 && N >= 6 && N <= 20)) {
             System.out.println("Weird");
