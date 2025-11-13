@@ -10,4 +10,5 @@ public class Q05JavaOutputFormatting {
                 
     }
     System.out.println("================================");
+    }
 }
