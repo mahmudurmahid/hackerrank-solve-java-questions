@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class q03JavaIfElse {
+public class Q03JavaIfElse {
     private static final Scanner scanner = new Scanner(System.in);
     static int N = 27;
 
